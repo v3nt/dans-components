@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    Hello Dans World
+    Hello Dans World v0.1.0
   </div>
 </template>
 
