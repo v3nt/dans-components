@@ -1,22 +1,22 @@
 {
   "name": "dans-components",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-library" : "vue-cli-service build --target lib --name  dans-components ./src/install.js",
+    "build-library": "vue-cli-service build --target lib --name  dans-components ./src/install.js",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint",
-    "files": [
-      "dist/*",
-      "src/*",
-      "public/*",
-      "*.json",
-      "*.js"
-    ],
-    "main" : "./dist/dans-components.common.js"
+    "lint": "vue-cli-service lint"
   },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
+  "main": "./dist/dans-components.common.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
